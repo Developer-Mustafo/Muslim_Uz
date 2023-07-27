@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="uz.coder.muslimuz.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+
+        <action
+            android:id="@+id/action_homeFragment_to_tasbehFragment2"
+            app:destination="@id/tasbehFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tasbehFragment"
+        android:name="uz.coder.muslimuz.fragment.TasbehFragment"
+        android:label="fragment_tasbeh"
+        tools:layout="@layout/fragment_tasbeh" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="uz.coder.muslimuz.fragment.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/duoFragment"
+        android:name="uz.coder.muslimuz.fragment.DuoFragment"
+        android:label="fragment_duo"
+        tools:layout="@layout/fragment_duo" />
+    <fragment
+        android:id="@+id/duo1Fragment"
+        android:name="uz.coder.muslimuz.fragment.Duo1Fragment"
+        android:label="fragment_duo1"
+        tools:layout="@layout/fragment_duo1" />
+    <fragment
+        android:id="@+id/alloh_ismlari_Fragment"
+        android:name="uz.coder.muslimuz.fragment.Alloh_ismlari_Fragment"
+        android:label="fragment_alloh_ismlari_"
+        tools:layout="@layout/fragment_alloh_ismlari_" />
+    <fragment
+        android:id="@+id/allohFragment"
+        android:name="uz.coder.muslimuz.fragment.AllohFragment"
+        android:label="fragment_alloh"
+        tools:layout="@layout/fragment_alloh" />
+    <fragment
+        android:id="@+id/namozFragment"
+        android:name="uz.coder.muslimuz.fragment.NamozFragment"
+        android:label="fragment_namoz"
+        tools:layout="@layout/fragment_namoz" />
+    <fragment
+        android:id="@+id/namoz2Fragment"
+        android:name="uz.coder.muslimuz.fragment.Namoz2Fragment"
+        android:label="fragment_namoz2"
+        tools:layout="@layout/fragment_namoz2" />
+    <fragment
+        android:id="@+id/xaqidaFragment"
+        android:name="uz.coder.muslimuz.fragment.XaqidaFragment"
+        android:label="fragment_xaqida"
+        tools:layout="@layout/fragment_xaqida" />
+
+
+</navigation>

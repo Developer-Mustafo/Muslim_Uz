@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/homeFragment"
+    android:title="Bosh sahifa"
+    android:icon="@drawable/baseline_home_24"/>
+   <item
+        android:id="@+id/tasbehFragment"
+        android:title="Tasbeh"
+        android:icon="@drawable/prayer_beads_svgrepo_com"/>
+    <item
+    android:id="@+id/menuFragment"
+    android:title="Sozlamalar"
+    android:icon="@drawable/baseline_settings_24"/>
+</menu>
