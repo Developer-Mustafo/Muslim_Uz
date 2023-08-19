@@ -81,7 +81,7 @@
                 android:textSize="25sp"
                 android:textStyle="italic"
                 android:fontFamily="sans-serif-condensed-medium"
-                android:text="    Bu ilovani 3 ta bo\'lib ishladik Men yani Mustafo,Lazizbek,Maqsadbek.
+                android:text="Bu ilovani 3 ta bo\'lib ishladik Mustafo,Lazizbek,Maqsadbek.
     Biz bu ilovani tuzganda ancha muncha qiyinchiliklarga duch keldik ammo barbir to\'xtamadik"/>
 
         </LinearLayout>
